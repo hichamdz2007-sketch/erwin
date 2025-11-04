@@ -1,0 +1,82 @@
+body {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(18, 18, 18);
+    color: #fff;
+    
+  }
+.hicham{
+  background-color:transparent;
+  text-align: center;
+  margin: 100px;
+ box-shadow:0  0 25px red;
+  border-radius: 10px;
+  min-height: 45vh;
+  padding: 10px;
+  width: 50%;
+  animation: animateBg 10s linear infinite ;
+}
+a{
+  font-size: 21px;
+  color: rgb(224, 81, 81);
+  text-decoration: none;
+  font-weight: 700;
+  justify-content: space-between;
+  padding-left: 30px;
+  
+  
+
+
+}
+@keyframes animateBg
+{  
+0%
+{
+  filter: hue-rotate(0deg);
+}
+100%
+{
+  filter: hue-rotate(360deg);
+
+}
+}
+input{
+  border-radius: 26px;
+  width: 300px;
+  height: 25px;
+  padding: 5px;
+  border:2px rgba(245, 49, 49, 0.521) solid ;
+  transition: 0.5s linear;
+}
+button{
+
+  border-radius: 25px;
+  border: 1px red solid ;
+  background-color: transparent;
+ padding: 10px;
+ width: 120px;
+ cursor:pointer ;
+
+
+    color:white ;
+  }
+.img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 15px 0 0;
+  border: 1px rgb(0, 0, 0) solid;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+img:hover {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.hi :hover {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+
